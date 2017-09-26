@@ -19,7 +19,8 @@ data = pd.read_csv('housing.csv')
 prices = data['MEDV']
 features = data.drop('MEDV', axis = 1)
 
-print(prices)
+# Comment out the following line to see the prices
+#print(prices)
 
 #######################################################################
 
@@ -418,5 +419,3 @@ Answer:
     all is good. Finally I would test it for a month or two, and then deliver it.    
     
 '''
-        
-
